@@ -312,3 +312,4 @@ D:\2DS -EVB\PAM\ExemploHTTP\ExemploHTTP\obj\Debug\net8.0-ios\iossimulator-x64\re
 D:\2DS -EVB\PAM\ExemploHTTP\ExemploHTTP\obj\Debug\net8.0-ios\iossimulator-x64\ExemploHTTP.pdb
 D:\2DS -EVB\PAM\ExemploHTTP\ExemploHTTP\obj\Debug\net8.0-ios\iossimulator-x64\ExemploHTTP.genruntimeconfig.cache
 D:\2DS -EVB\PAM\ExemploHTTP\ExemploHTTP\obj\Debug\net8.0-ios\iossimulator-x64\ref\ExemploHTTP.dll
+D:\2DS -EVB\PAM\ExemploHTTP\ExemploHTTP\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature

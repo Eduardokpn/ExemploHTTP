@@ -16,6 +16,7 @@ namespace ExemploHTTP
         HttpClient _client;
         JsonSerializerOptions _serializerOptions;
 
+        public ObservableCollection<Postagem> _postagens { get; set; }
         public ObservableCollection<Postagem> Postagens { get; set; }
 
         public RestService()
@@ -44,7 +45,7 @@ namespace ExemploHTTP
             {
                 Debug.WriteLine(ex);
             }
-            return Postagens;
+            return Postagens ?? [];
         }
     }
 }
