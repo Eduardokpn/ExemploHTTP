@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExemploHTTP.View.PostagemView"
+             Title="PostagemView">
+
+    <VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding Postagens}" EmptyView="CadÊ os dados">
+            <CollectionView.ItemTemplate >
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <HorizontalStackLayout>
+                            <Label 
+                              Text="{Binding UserId}"
+                              />
+                            <Label 
+                              Text="{Binding Id}"
+                             />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout>
+                            <Label
+                              Text="{Binding Title}"
+                               />
+                        </HorizontalStackLayout>
+
+                        <Label
+                           Text="{Binding Body}"
+                           />
+
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button
+            Text="Buscar Postagens"
+             Command="{Binding GetPostagensAsyncCommand}"
+             />
+    </VerticalStackLayout>
+
+
+</ContentPage>
